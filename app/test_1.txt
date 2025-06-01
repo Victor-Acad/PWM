@@ -1,0 +1,7 @@
+// ------------ PWM Test 1 ------------
+
+Observamos en el osciloscopio una señal PWM que mantiene su periodo constante en el tiempo, pero
+varía su ciclo de actividad, desde el 0% hasta el 100% (ver Osciloscopio.jpeg).
+
+Al entregar dicha señal a un led, observamos como efectivamente su brillo varía en intensidad
+acorde a la misma (ver Circuito.jpeg).

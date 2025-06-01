@@ -1,0 +1,8 @@
+// ------------ PWM Test 1 ------------
+
+Observamos en el osciloscopio una señal PWM que mantiene su ciclo de actividad constante en
+el tiempo, pero varía su periodo/frecuencia, aproximadamente entre los 2 kHz y los 4kHz.
+(ver Osciloscopio_2.jpeg y Video.mp4).
+
+Al entregar dicha señal a un led, observamos como efectivamente su brillo NO varía en intensidad,
+dado que el duty cycle se mantiene constante.

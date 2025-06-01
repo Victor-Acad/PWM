@@ -1,0 +1,22 @@
+// ------------ PWM Tests ------------
+
+El código utilizado hace uso del timer TIM3 para generar una señal PWM que varía en el tiempo.
+
+Se definen en app.c dos tests distintos para probar esta funcionalidad del microcontrolador.
+
+Definimos ciclo de actividad como:
+
+Duty cycle = T_on/T
+
+o en su versión porcentual como:
+
+Duty cycle [%] = T_on/T * 100%
+
+donde T_on es el tiempo en alto, y T el período total de la señal.
+
+PWM (Pulse Width Modulation) se basa en generar una señal cuadrada o rectangular de periodo constante
+donde la información transmitida se modula en el ancho de cada pulso (T_on).
+
+Tiene muchos usos, los más típicos quizás siendo el control de la intensidad de un LED o el control de
+motores o servomotores (en este caso es común emplear una frecuencia de 50 Hz). Algunos sensores también
+transmiten la información sensada a través de una señal PWM.
